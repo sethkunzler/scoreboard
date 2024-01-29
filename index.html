@@ -16,7 +16,7 @@
     <section class="container-fluid bg-img">
       <div class="row justify-content-center">
         <div class="col-12 my-3 text-end pe-5">
-          <button class="btn btn-outline-danger">Reset</button>
+          <button type="button" onclick="reset()" class="btn btn-outline-danger">Reset</button>
         </div>
         <div class="col-8">
           <div class="scoreboard">
@@ -27,22 +27,22 @@
               <div class="col-6 text-start">
                 <h1>Away</h1>
               </div>
-              <div id="homeScore" class="col-6 fs-1 text-end">00</div>
-              <div id="awayScore" class="col-6 fs-1 text-start">00</div>
+              <div id="homeScore" class="col-6 fs-1 text-end">0</div>
+              <div id="awayScore" class="col-6 fs-1 text-start">0</div>
             </div>
           </div>
         </div>
         <div class="col-6 my-3 text-end">
-          <button onclick="homeScore('+1')" class="btn btn-outline-primary">Home +1</button>
+          <button type="button" onclick="drawHomeScore(1)" class="btn btn-outline-primary">Home +1</button>
         </div>
         <div class="col-6 my-3 text-start">
-          <button onclick="awayScore('+1')" class="btn btn-outline-primary">Away +1</button>
+          <button type="button" onclick="drawAwayScore(1)" class="btn btn-outline-primary">Away +1</button>
         </div>
         <div class="col-6 my-3 text-end">
-          <button onclick="homeScore('+3')" class="btn btn-outline-primary">Home +3</button>
+          <button type="button" onclick="drawHomeScore(3)" class="btn btn-outline-primary">Home +3</button>
         </div>
         <div class="col-6 my-3 text-start">
-          <button onclick="awayScore('+3')" class="btn btn-outline-primary">Away +3</button>
+          <button type="button" onclick="drawAwayScore(3)" class="btn btn-outline-primary">Away +3</button>
         </div>
       </div>
     </section>
