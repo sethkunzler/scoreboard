@@ -1,7 +1,13 @@
-bg-img {
-  background-image: url(assets/images/bg-img);
+.bg-img {
+  background-image: url(https://unsplash.com/photos/soccer-field-qCrKTET_09o);
   background-color: rgba(0, 0, 0, .75);
   background-blend-mode: color;
   color: white;
-  
+}
+
+.scoreboard {
+  background-color: rgba(0, 0, 255, .25);
+  color: white;
+  padding: 32px;
+  border-radius: 16px;
 }
