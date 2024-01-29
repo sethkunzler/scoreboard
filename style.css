@@ -1,0 +1,7 @@
+bg-img {
+  background-image: url(assets/images/bg-img);
+  background-color: rgba(0, 0, 0, .75);
+  background-blend-mode: color;
+  color: white;
+  
+}
