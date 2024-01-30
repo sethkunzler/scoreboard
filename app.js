@@ -1,5 +1,3 @@
-// TODO establish win condition
-
 let homeScoreElement = document.getElementById('homeScore')
 let awayScoreElement = document.getElementById('awayScore')
 let scoreHome = 0
